@@ -1,0 +1,22 @@
+.navbar {
+    background-color: rgb(249, 52, 52);
+}
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+#spinner{
+    display: none;
+}
+.color{
+    background-color: red;
+}
+@media(max-width:1000px) {
+     .ahmad{
+       display: flex;
+       flex-direction:column-reverse;
+    }
+    .image {
+        width:60%;
+    }
+}
